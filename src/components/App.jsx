@@ -16,10 +16,10 @@ function createCard(boot){
 }
 
 function App(){
-    return <div>
+return <div>
         <Header />
-        <Footer />
         {boots.map(createCard)}
+        <Footer />
     </div>
 }
 
